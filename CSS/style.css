@@ -1,0 +1,240 @@
+/* Navbar stying start here */
+.navbar-light {
+    background: #795548;
+    box-shadow: 0.125rem rgba(0, 0, 0, .11);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    min-height: 70px !important;
+    padding-bottom: 0;
+    display: flex;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: #fff !important;
+    height: inherit;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.mr-auto {
+    margin-right: auto !important;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding: 11px 0 12px;
+}
+
+.nav-item .active span {
+    color: #fff;
+    font-weight: 900;
+}
+
+.nav-item a span {
+    color: rgb(46, 60, 73);
+    font-weight: 900;
+}
+
+.nav-item a span:hover {
+    color: #fff;
+    cursor: pointer;
+} 
+/* Navbar styling end here */
+
+/* About section styling start here */
+.home-section {
+    padding-top: 10%;
+    background-color: hsla(16, 24%, 85%, 1);
+    padding: 110px 0 100px;
+    animation: 0.3s;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#profile .avi {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profile .avi-title h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #000000;
+    margin: 20px 0 10px 0;
+    line-height: 1.25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#profile .avi-title h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 0px 0 10px 0;
+    font-family: monospace;
+}
+
+#profile .social-icon {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.interest {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.grad-ul {
+    list-style: none;
+    padding-left: 2.5em;
+    padding-left: 0;
+}
+
+.course {
+    font-size: 1rem;
+    font-family: monospace, sans-serif;
+}
+
+.institution {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    
+}
+/* About section styling end here */
+
+/* Project section styling start here */
+.home-section:nth-of-type(even) {
+    background-color: hsla(16, 24%, 80%, 1);
+}
+
+.section-heading h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.25rem;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.project-item {
+    margin-bottom: 1.5rem;
+    
+}
+
+.card h4 a {
+    color: rgb(0, 0, 0);
+    border-bottom: solid 1px transparent;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+/* Project section styling end here */
+
+/* News section styling start here */
+.news a {
+    color: #795548;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.news a:hover {
+    color: #795548;
+    text-decoration: none;
+    transition: color 0.6s ease;
+    cursor: pointer;
+}
+/* News section styling end here */
+
+/* Experience section styling start here */
+.h-50 {
+    height: 50% !important;
+}
+
+.m-2 {
+    margin: .5rem!important;
+}
+
+.experience .m-2 .border.exp-fill {
+    background-color: #795548 !important;
+}
+
+.experience .m-2 .border, .experience .col.border-right {
+    border-color: #795548 !important;
+}
+
+.border {
+    border: 1px solid #dee2e6!important;
+}
+
+.py-2 {
+    padding-bottom: .5rem!important;
+}
+
+.card h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+/* Experience section styling start here */
+
+/* Accomplishment section start here */
+
+.card .exp-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6C757d;
+    font-family: sans-serif;
+}
+
+.course h6 a {
+    border-bottom: 1px solid transparent;
+    color: rgb(121, 85, 72);
+    transition: color 0.6s ease 0s;
+}
+
+.course h6 a:hover {
+    color: rgb(121, 85, 72);
+    text-decoration: none;
+    transition: color 0.6s ease 0s;
+}
+/* Accomplishment section end here */
+@media (max-width: 768px) {
+    .navbar-nav {
+        float: right!important;
+    }
+}
